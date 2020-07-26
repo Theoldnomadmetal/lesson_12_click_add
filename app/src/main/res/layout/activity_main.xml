@@ -10,23 +10,13 @@
         android:id="@+id/add_or"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Add or delete"
-        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_or_delete"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
-    <TextView
-        android:id="@+id/item_count"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/add_or"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle"
